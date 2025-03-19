@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticketmaster France - Billets, Places de Concert, Sport, Théâtre</title>
+  <meta name="description" content="Achetez vos billets pour les concerts, festivals, théâtre, sport et plus encore sur Ticketmaster France.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-left">
+          <a href="/" class="logo">
+            <span class="logo-text">ticketmaster</span>
+            <span class="logo-fr">.fr</span>
+          </a>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="#">Musique</a></li>
+              <li><a href="#">Sport</a></li>
+              <li><a href="#">Arts & Spectacles</a></li>
+              <li><a href="#">Famille</a></li>
+              <li><a href="#">Expositions</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-right">
+          <div class="search-container">
+            <input type="search" placeholder="Rechercher un événement" class="search-input">
+            <i class="fas fa-search search-icon"></i>
+          </div>
+          <button class="icon-button user-button">
+            <i class="fas fa-user"></i>
+          </button>
+          <button class="icon-button mobile-search-button">
+            <i class="fas fa-search"></i>
+          </button>
+          <button class="icon-button mobile-menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <nav>
+      <ul>
+        <li><a href="#">Musique</a></li>
+        <li><a href="#">Sport</a></li>
+        <li><a href="#">Arts & Spectacles</a></li>
+        <li><a href="#">Famille</a></li>
+        <li><a href="#">Expositions</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Découvrez vos événements préférés</h1>
+          <div class="search-box">
+            <div class="tabs">
+              <button class="tab-button active">Événements</button>
+              <button class="tab-button">Artistes</button>
+            </div>
+            <div class="tab-content active">
+              <div class="search-form">
+                <input type="text" placeholder="Artiste, événement ou lieu" class="search-form-input">
+                <button class="search-button">Rechercher</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+      <div class="container">
+        <h2>Parcourir par catégorie</h2>
+        <div class="categories-grid">
+          <a href="#" class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-music"></i>
+            </div>
+            <span>Concerts</span>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-microphone"></i>
+            </div>
+            <span>Festivals</span>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <span>Sports</span>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-theater-masks"></i>
+            </div>
+            <span>Théâtre</span>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <span>Famille</span>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-image"></i>
+            </div>
+            <span>Expositions</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Events -->
+    <section class="events featured-events">
+      <div class="container">
+        <div class="section-header">
+          <h2>Événements à la une</h2>
+          <button class="view-all-button desktop-only">
+            Voir tout <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="events-grid">
+          <!-- Event 1 -->
+          <a href="#" class="event-card">
+            <div class="event-image">
+              <img src="img/ColdplayBBC071221_(cropped).jpg" alt="Coldplay - Music Of The Spheres World Tour">
+            </div>
+            <div class="event-details">
+              <h3 class="event-title">Coldplay - Music Of The Spheres World Tour</h3>
+              <div class="event-info">
+                <i class="fas fa-calendar"></i>
+                <span>15 juillet 2025</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-clock"></i>
+                <span>20:00</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Stade de France, Saint-Denis</span>
+              </div>
+              <div class="event-price">
+                À partir de 75,00 €
+              </div>
+            </div>
+          </a>
+          
+          <!-- Event 2 -->
+          <a href="#" class="event-card">
+            <div class="event-image">
+              <img src="img/e5418a586a1e25a3bec8579468569339.jpg" alt="Taylor Swift - The Eras Tour">
+            </div>
+            <div class="event-details">
+              <h3 class="event-title">Taylor Swift - The Eras Tour</h3>
+              <div class="event-info">
+                <i class="fas fa-calendar"></i>
+                <span>9 mai 2025</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-clock"></i>
+                <span>19:30</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Paris La Défense Arena, Nanterre</span>
+              </div>
+              <div class="event-price">
+                À partir de 85,50 €
+              </div>
+            </div>
+          </a>
+          
+          <!-- Event 3 -->
+          <a href="#" class="event-card">
+            <div class="event-image">
+              <img src="img/clasico-om-psg_19i5ge8zwlbr31v4owijwfmp33.png" alt="Ligue 1 - PSG vs Marseille">
+            </div>
+            <div class="event-details">
+              <h3 class="event-title">Ligue 1 - PSG vs Marseille</h3>
+              <div class="event-info">
+                <i class="fas fa-calendar"></i>
+                <span>24 octobre 2024</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-clock"></i>
+                <span>21:00</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Parc des Princes, Paris</span>
+              </div>
+              <div class="event-price">
+                À partir de 45,00 €
+              </div>
+            </div>
+          </a>
+          
+          <!-- Event 4 -->
+          <a href="#" class="event-card">
+            <div class="event-image">
+              <img src="img/com-die-musicale-le-roi-lion---th--tre-mogador-tickets_207195_1867914_1443x963.jpg" alt="Le Roi Lion - Comédie Musicale">
+            </div>
+            <div class="event-details">
+              <h3 class="event-title">Le Roi Lion - Comédie Musicale</h3>
+              <div class="event-info">
+                <i class="fas fa-calendar"></i>
+                <span>Du 5 au 30 novembre 2024</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-clock"></i>
+                <span>Plusieurs horaires</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Théâtre Mogador, Paris</span>
+              </div>
+              <div class="event-price">
+                À partir de 39,00 €
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="mobile-view-more">
+          <button class="view-more-button">
+            Voir plus d'événements <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Events -->
+    <section class="events popular-events">
+      <div class="container">
+        <div class="section-header">
+          <h2>Événements populaires</h2>
+          <button class="view-all-button desktop-only">
+            Voir tout <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="events-grid">
+          <!-- Event 1 -->
+          <a href="#" class="event-card">
+            <div class="event-image">
+              <img src="img/D717D574-1061-4FE2-8F30-DD861809C6F6.webp" alt="Billie Eilish - Hit Me Hard and Soft Tour">
+            </div>
+            <div class="event-details">
+              <h3 class="event-title">Billie Eilish - Hit Me Hard and Soft Tour</h3>
+              <div class="event-info">
+                <i class="fas fa-calendar"></i>
+                <span>23 juin 2025</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-clock"></i>
+                <span>20:00</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Accor Arena, Paris</span>
+              </div>
+              <div class="event-price">
+                À partir de 69,50 €
+              </div>
+            </div>
+          </a>
+          
+          <!-- Event 2 -->
+          <a href="#" class="event-card">
+            <div class="event-image">
+              <img src="img/images.jpg" alt="Cirque du Soleil - Kurios">
+            </div>
+            <div class="event-details">
+              <h3 class="event-title">Cirque du Soleil - Kurios</h3>
+              <div class="event-info">
+                <i class="fas fa-calendar"></i>
+                <span>Du 12 mars au 5 avril 2025</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-clock"></i>
+                <span>Plusieurs horaires</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>La Villette, Paris</span>
+              </div>
+              <div class="event-price">
+                À partir de 45,00 €
+              </div>
+            </div>
+          </a>
+          
+          <!-- Event 3 -->
+          <a href="#" class="event-card">
+            <div class="event-image">
+              <img src="img/images (1).jpg" alt="Kendrick Lamar">
+            </div>
+            <div class="event-details">
+              <h3 class="event-title">Kendrick Lamar</h3>
+              <div class="event-info">
+                <i class="fas fa-calendar"></i>
+                <span>1 septembre 2024</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-clock"></i>
+                <span>20:30</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Accor Arena, Paris</span>
+              </div>
+              <div class="event-price">
+                À partir de 79,00 €
+              </div>
+            </div>
+          </a>
+          
+          <!-- Event 4 -->
+          <a href="#" class="event-card">
+            <div class="event-image">
+              <img src="img/images (2).jpg" alt="AYA Nakamura - Le Concert">
+            </div>
+            <div class="event-details">
+              <h3 class="event-title">Aya Nakamura</h3>
+              <div class="event-info">
+                <i class="fas fa-calendar"></i>
+                <span>Du 26 mai au 9 juin 2025</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-clock"></i>
+                <span>Plusieurs horaires</span>
+              </div>
+              <div class="event-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Accor Arena, Paris</span>
+              </div>
+              <div class="event-price">
+                À partir de 39,00 €
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="mobile-view-more">
+          <button class="view-more-button">
+            Voir plus d'événements <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>Ticketmaster</h3>
+          <ul>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Carrières</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="#">Aide</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Suivez-nous</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Nos partenaires</h3>
+          <ul>
+            <li><a href="#">Live Nation</a></li>
+            <li><a href="#">Universe</a></li>
+            <li><a href="#">Front Gate Tickets</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Informations légales</h3>
+          <ul>
+            <li><a href="#">Conditions générales</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Vos choix en matière de confidentialité</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Ticketmaster. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
